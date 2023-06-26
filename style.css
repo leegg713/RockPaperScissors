@@ -1,0 +1,35 @@
+.Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 400px;
+
+  
+    
+}
+p{
+    
+    text-align: center;
+    font-size: 36px;
+    color: purple;
+
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: blue
+}
+button{
+    color : red;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+* {
+  border: 2px solid red;
+}

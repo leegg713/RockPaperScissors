@@ -37,9 +37,9 @@ function playRound(playerSelection, computerSelection) {
         console.log("You lose! Scissors slices paper!")
     } else if (playerSelection === "scissors " && computerSelection === 0) {
         console.log("You lose! Rock crushes sicssors!");
-    } else if (playerSelection === "scissors" && computerSelection === 1){
+    } else if (playerSelection === "scissors" && computerSelection === 1) {
         console.log("You win! Scissors slics paper!");
-    }else{
+    } else {
         console.log("Its a tie!!!");
     }
 }
@@ -48,9 +48,13 @@ function playRound(playerSelection, computerSelection) {
 //const computerSelection = getComputerChoice();
 //console.log(playRound(playerSelection, computerSelection));
 
-function game(){
-    for(i=0; i<1; i++){
+function game() {
+    for (i = 0; i < 1; i++) {
         playRound();
     }
 }
 game();
+
+//User interface
+
+
