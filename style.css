@@ -1,35 +1,64 @@
-.Button-Box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 400px;
-
-  
-    
-}
-p{
-    
-    text-align: center;
-    font-size: 36px;
-    color: purple;
-
-}
-h1{
-    text-align: center;
-    font-size: 36px;
-    color: blue
-}
-button{
-    color : red;
-    width: 100px;
-    height: 100px;
-}
-
-
-
 * {
-  border: 2px solid red;
-}
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  p.title {
+    font-weight: bold;
+    margin: 50px 0 0 0;
+    font-size: 25px;
+  }
+  
+  p.rule {
+    margin: 0 0 50px 0;
+  }
+  
+  p.result {
+    margin: 50px 0 0 0;
+  }
+  
+  p.score {
+    margin: 0;
+  }
+  
+  p.human-score {
+    color: #55acee;
+  }
+  
+  p.computer-score {
+    color: #fa743e;
+  }
+  
+  .btn-container {
+    text-align: center;
+  }
+  
+  .btn {
+    outline: none;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    background-color: #eee;
+  }
+  
+  .btn:hover {
+    background-color: #fa743e;
+  }
+  
+  .btn.paper:hover {
+    background-color: #55acee;
+  }
+
+
